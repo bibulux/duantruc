@@ -1,6 +1,6 @@
 #!/bin/bash
 
-THRESHOLD=80
+THRESHOLD=90
 DISK=$(df / | tail -1 | awk '{print $5}' | cut -d% -f1)
 
 DATE=$(date "+%Y-%m-%d %H:%M:%S")
